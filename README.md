@@ -192,5 +192,5 @@ The recognizable commands by the interpreter are the following:
 |update  | updates an instance based on the class name and id by adding or updating attributes then saves changes into a JSON file) |
 |usage  |  update <class name> <id>  <attribute> "<attribute value>" ---or--- <class name>.update(<id>, <attribute name>,<attribute value>) --or-- <class name>.update(<id>,<dictionary representation>) |
 | count  | Retrieve the number of instances of a class |
-| usage  | <class name>.count() |
+| usage  | <class name> .count() |
 
