@@ -168,13 +168,15 @@ user@ubuntu:~/AirBnB$ ./console.py $ echo "create BaseModel" | ./console.py
 e37ebcd3-f8e1-4c1f-8095-7a019070b1fa
 
 (hbnb)
+
 user@ubuntu:~/AirBnB$ ./console.py
 
 # Available commands and what they do:
 
 The recognizable commands by the interpreter are the following:
 
-| Command | Description | 
+| Command | Description |
+| --- | --- |
 
 
 
