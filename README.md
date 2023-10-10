@@ -179,4 +179,7 @@ The recognizable commands by the interpreter are the following:
 | --- | --- |
 | quit or EOF | Exits the program 
 | usage  | By itself |
-|
+| help   | Provides a text describing how to use a command |
+| usage. | By itself --or-- help <command> |
+| create | Creates a new instance of a valid class,saves it (to JSON file) and prints the id. Valid classes are,BaseModel,User,State,City,Amenity,Place and Review) |
+
