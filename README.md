@@ -10,19 +10,28 @@ The interface of the application is just like the Bash shell except that this ha
 This command line interpreter serves as the frontend of the web app where users can  interact with the backend which was developed with Python OOP Programming.
  
 In our case, We want to be able to manage the objects of our project:
+
 •Show
+
 •Create
+
 •Update
+
 •Count
+
 •Destroy
 
 
 As part of the implementation of the command line interpreter coupled with backend and file storage system, the following actions can be performed:
 
 •Retrieve an object from a file, database and etc...
+
 •Do operations on an objects(count,computer stats and etc...)
+
 •Update attributes of an object
+
 •Create new objects (eg, A New User or a new Place)
+
 •Destroy an object
 
 # Installing:
