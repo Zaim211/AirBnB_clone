@@ -177,5 +177,6 @@ The recognizable commands by the interpreter are the following:
 
 | command | Description|
 | --- | --- |
-| quit or EOF | Exits the program | usage  | By itself |
+| quit or EOF | Exits the program 
+| usage  | By itself |
 |
