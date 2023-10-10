@@ -20,6 +20,7 @@ In our case, We want to be able to manage the objects of our project:
 •Destroy
 
 As part of the implementation of the command line interpreter coupled with backend and file storage system, the following actions can be performed:
+
 •Retrieve an object from a file, database and etc...
 
 •Do operations on an objects(count,computer stats and etc...)
@@ -31,6 +32,7 @@ As part of the implementation of the command line interpreter coupled with backe
 •Destroy an object
 
 Installing:
+
 You will need to clone the repository of the project from Github. This will contain the simple shell program and all of its dependencies.
 
  
