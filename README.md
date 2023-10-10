@@ -1,9 +1,9 @@
-# AirBnB_clone
-Project Description
+# AirBnB_clone 
+# Project Description
 
 Welcome to the AirBnB clone project! This project involves building a command interpreter to manage AirBnB objects and serves as the first step towards creating a full web application. The command interpreter allows you to create, retrieve, update, and delete objects related to AirBnB properties.
 
-COMMAND INTERPRETER:
+# COMMAND INTERPRETER:
 
 The interface of the application is just like the Bash shell except that this has limited number of accepted commands that were solely defined for the purposes of the usage of the AirBnB website.
 This command line interpreter serves as the frontend of the web app where users can  interact with the backend which was developed with Python OOP Programming.
@@ -31,7 +31,7 @@ As part of the implementation of the command line interpreter coupled with backe
 
 •Destroy an object
 
-Installing:
+# Installing:
 
 You will need to clone the repository of the project from Github. This will contain the simple shell program and all of its dependencies.
 
@@ -62,7 +62,7 @@ models/place.py: Place class that inherits from BaseModel
 models/review.py: Review class that inherits from BaseModel
 
 
-How You Can Use It :
+# How You Can Use It :
 
 It can work in two different modes:
 
@@ -135,16 +135,17 @@ EOF  help  quit
 
 $
 
-Format of command Input:
+# Format of command Input:
 
 In order to give commands to the console, these will need to be piped through an echo in case of Non-interactive mode.
 
 In Interactive Mode the commands will need to be written with a keyboard when the prompt appears and will be recognized when an enter key is pressed (new line). As soon as this happens, the console will attempt to execute the command through several means or will show an error message if the command didn't run successfully. In this mode, the console can be exited using the CTRL + D combination, CTRL + C, or the command quit or EOF.
 
 
-Arguments:
+# Arguments:
 
 Most commands have several options or arguments that can be used when executing the program. In order for the Shell to recognize those parameters, the user must separate everything with spaces.
+
 Example:
 
 user@ubuntu:~/AirBnB$ ./console.py
@@ -167,7 +168,14 @@ e37ebcd3-f8e1-4c1f-8095-7a019070b1fa
 
 (hbnb)
 
+user@ubuntu:~/AirBnB$ ./console.py
+
+# Available commands and what they do:
+
+The recognizable commands by the interpreter are the following:
 
 
-
-
+| command | Description|
+| --- | --- |
+| quit or EOF | Exits the program | usage  | By itself |
+|
