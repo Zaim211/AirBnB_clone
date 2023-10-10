@@ -21,14 +21,16 @@ In our case, We want to be able to manage the objects of our project:
 
 As part of the implementation of the command line interpreter coupled with backend and file storage system, the following actions can be performed:
 •Retrieve an object from a file, database and etc...
+
 •Do operations on an objects(count,computer stats and etc...)
+
 •Update attributes of an object
+
 •Create new objects (eg, A New User or a new Place)
+
 •Destroy an object
+
 Installing:
-
- 
-
 You will need to clone the repository of the project from Github. This will contain the simple shell program and all of its dependencies.
 
  
