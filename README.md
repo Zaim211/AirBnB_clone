@@ -15,9 +15,8 @@ Count
 Destroy
 
 
-As part of the implementation of the command line interpreter coupled with backend and file storage system, the following actions can be performed:
-
-Retrieve an object from a file, database and etc...
+As part of the implementation of the command line interpreter coupled with backend and file storage system, the following actions can beperformed:
+Retrieve an object from a file,database and etc
 Do operations on an objects(count,computer stats and etc...)
 Update attributes of an object
 Create new objects (eg, A New User or a new Place)
