@@ -8,10 +8,15 @@ COMMAND INTERPRETER:
 The interface of the application is just like the Bash shell except that this has limited number of accepted commands that were solely defined for the purposes of the usage of the AirBnB website.
 This command line interpreter serves as the frontend of the web app where users can  interact with the backend which was developed with Python OOP Programming.
 In our case, We want to be able to manage the objects of our project:
-•Show
+
+•Show 
+
 •Create
+
 •Update
+
 •Count
+
 •Destroy
 
 As part of the implementation of the command line interpreter coupled with backend and file storage system, the following actions can be performed:
