@@ -7,7 +7,7 @@ import sys
 
 from models import *
 from models import storage
-<<<<<<< HEAD
+
 
 
 class HBNBCommand(cmd.Cmd):
@@ -252,7 +252,7 @@ Function: Counts all the instances  of the class
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
-=======
+
 from models.base_model import BaseModel
 from models.user import User
 from models.state import State
@@ -457,4 +457,3 @@ class HBNBCommand(cmd.Cmd):
 
 if __name__ == "__main__":
 	HBNBCommand().cmdloop()
->>>>>>> c79294798b4411cba547f1af1a49409dfffc7d0c
