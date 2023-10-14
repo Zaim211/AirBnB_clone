@@ -180,7 +180,8 @@ user@ubuntu:~/AirBnB$ ./console.py
 
 # The recognizable commands by the interpreter are the following:
 
-|--- Command--| Description |
+|---Command---|--Description---|
+
 | quit or EOF	| Exist the program |
 | usage	| By itself |
 | help  |	Provides a text describing how to use a command |
