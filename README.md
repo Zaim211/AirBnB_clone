@@ -185,6 +185,6 @@ user@ubuntu:~/AirBnB$ ./console.py
 | quit or EOF	| Exits the program |
 | Usage	| By itself |
 | help  | Provides a text describing how to use a command |
-| Usage	 | By itself --or-- help <command> |
+| Usage	 | By itself --or-- help < command > |
 | create	| Creates a new instance of a valid Class, saves it (to the JSON file) and prints the id. Valid classes are: BaseModel, User, State, City, Amenity, Place, Review. |
-| Usage	 | create <class name> |
+| Usage	 | create < class name > |
