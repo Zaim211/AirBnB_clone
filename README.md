@@ -188,3 +188,5 @@ user@ubuntu:~/AirBnB$ ./console.py
 | Usage	 | By itself --or-- help < command > |
 | create	| Creates a new instance of a valid Class, saves it (to the JSON file) and prints the id. Valid classes are: BaseModel, User, State, City, Amenity, Place, Review. |
 | Usage	 | create < class name > |
+| show	| Prints the string representation of an instance based on the class name and id |
+| Usage	 | show < class name > <id > --or-- < class name>.show(<id >) |
