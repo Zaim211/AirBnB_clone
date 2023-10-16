@@ -80,6 +80,7 @@ Interactive and Non-interactive.
 
 In Interactive mode, the console will display a prompt (hbnb) indicating that the user can write and execute a command. After the command is run, the prompt will appear again and wait for a new command. This can go indefinitely as long as the user does not exit the program.
 
+```
 $ ./console.py
 
 (hbnb) help
@@ -97,9 +98,11 @@ EOF help quit
 (hbnb) quit
 
 $
+```
 
 In Non-interactive mode, the shell will need to be run with a command input piped into its execution so that the command is run as soon as the Shell starts. In this mode no prompt will appear, and no further input will be expected from the user.
 
+```
 $ echo "help" | ./console.py
 
 (hbnb)
@@ -133,16 +136,20 @@ EOF help quit
 (hbnb)
 
 $
+```
 
-Format of command Input :
+# Format of command Input :
+
 In order to give commands to the console, these will need to be piped through an echo in case of Non-interactive mode.
 
 In Interactive Mode the commands will need to be written with a keyboard when the prompt appears and will be recognized when an enter key is pressed (new line). As soon as this happens, the console will attempt to execute the command through several means or will show an error message if the command didn't run successfully. In this mode, the console can be exited using the CTRL + D combination, CTRL + C, or the command quit or EOF.
 
-Arguments :
+# Arguments :
+
 Most commands have several options or arguments that can be used when executing the program. In order for the Shell to recognize those parameters, the user must separate everything with spaces.
 
 Example:
+```
 user@ubuntu:~/AirBnB$ ./console.py
 
 (hbnb) create BaseModel
@@ -163,10 +170,14 @@ e37ebcd3-f8e1-4c1f-8095-7a019070b1fa
 
 user@ubuntu:~/AirBnB$ ./console.py
 
-Available commands and what they do:
+```
+
+# Available commands and what they do:
+
 The recognizable commands by the interpreter are the following:
 
-Command	Description
+| Command | Description |
+| ~~~~ | ~~~~ |
 quit or EOF	Exist the program
 usage	By itself
 help.	Provides a text describing how to use a command
