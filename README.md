@@ -152,4 +152,6 @@ user@ubuntu:~/AirBnB$ ./console.py
 | Usage | create < class name >|
 |show | Prints the string representation of an instance based on the class name and id|
 | Usage | show < class name > < id > --or-- < class name >.show(< id >)|
+|destroy | Deletes an instance based on the class name and id (saves the change into a JSON file).|
+| Usage | destroy < class name > < id > --or-- .destroy()|
 
