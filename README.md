@@ -141,5 +141,11 @@ e37ebcd3-f8e1-4c1f-8095-7a019070b1fa
 user@ubuntu:~/AirBnB$ ./console.py
 ```
 
-
+| Command	| Description |
+| --------| ---------- |
+|quit or EOF | Exits the program |
+| Usage	| By itself |
+| help	 | Provides a text describing how to use a command.|
+| Usage	 | By itself --or-- help < command > |
+| 
 
