@@ -145,6 +145,5 @@ user@ubuntu:~/AirBnB$ ./console.py
 | Command	| Description |
 | --------| ---------- |
 |quit or EOF | Exits the program|
-| ---------| --------- |
-Usage	By itself|
+|Usage | By itself|
 
